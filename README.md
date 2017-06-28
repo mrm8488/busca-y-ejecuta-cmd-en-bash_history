@@ -7,7 +7,7 @@ This script is useful when we do not remember the whole command (w/ arguments/fl
 ### You can see the whole script in this folder, but the magic happens here:
 ```sh
 cd $HOME
-cat .bash_history | grep "<here_the_part_of_the_order_you_remember>"
+cat .bash_history | grep "<here_the_part_of_the_order_you_remember>" | uniq
 ```
 ### How it works:
 
