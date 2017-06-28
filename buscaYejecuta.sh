@@ -6,7 +6,7 @@ echo "Insert the command (options icluded) you remember to have executed:"
 read input
 cd $HOME
 IFS=$'\n'
-options=(`cat .bash_history | grep "$input"`)
+options=(`cat .bash_history | grep "$input" | uniq`)
 unset IFS
 
 if [ ${#options[@]} -eq 0 ]
