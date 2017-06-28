@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# create by mrm8488@gmail.com
+# created by mrm8488@gmail.com
 
 echo "Insert the command (options icludede) you remember to have executed:"
 read input
