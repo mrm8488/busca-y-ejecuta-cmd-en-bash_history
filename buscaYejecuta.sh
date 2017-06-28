@@ -11,10 +11,10 @@ unset IFS
 
 if [ ${#options[@]} -eq 0 ]
 then
- echo "There is no matches in your bash history for: $input"
+ echo "There are no matches in your bash history for: $input"
  exit 0
 else
- echo "Choose the command you want to execute:"
+ echo "Choose the command (number) you want to execute:"
 
  let arrayLength=${#options[@]}-1
 
