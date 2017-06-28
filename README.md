@@ -11,4 +11,4 @@ cat .bash_history | grep "<here_the_part_of_the_order_you_remember>"
 ```
 ### How it works:
 
-![gif](https://gfycat.com/AmpleInferiorBinturong)
+[GIF](https://gfycat.com/AmpleInferiorBinturong)
