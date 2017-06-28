@@ -9,3 +9,6 @@ This script is useful when we do not remember the whole command (w/ arguments/fl
 cd $HOME
 cat .bash_history | grep "<here_the_part_of_the_order_you_remember>"
 ```
+### How it works:
+
+![gif](https://gfycat.com/AmpleInferiorBinturong)
